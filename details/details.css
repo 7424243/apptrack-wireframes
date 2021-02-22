@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+}
+
+.details-header {
+    margin-left: 20px;
+}
+
+.section1 {
+    background-color: #E8E8E8;
+    text-align: left;
+}
+
+.section1_content {
+    margin: 20px;
+    padding: 15px;
+}
