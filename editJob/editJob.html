@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="editJob.css">
+    <title>apptrack</title>
+</head>
+<body>
+    <header class="edit-header">
+        <h1 class="edit-h1">apptrack</h1>
+        <nav class="edit-nav">
+            <a href="../home/home.html">Summary Table</a>
+            <a href="../resources/resources.html">Resources</a>
+            <a href="../index.html">Logout</a>
+        </nav>
+    </header>
+    <main>
+        <section class="section1">
+            <div class="section1_content">
+                <h3>Edit Job Application Entry</h3>
+                <form>
+                    <section>
+                        <label for="job">Job: </label>
+                        <input name="job" placeholder="Job #1">
+                    </section>
+                    <section>
+                        <label for="company">Company: </label>
+                        <input name="company" placeholder="Company #1">
+                    </section>
+                    <section>
+                        <label for="description">Quick Job Description: </label>
+                        <input name="description" placeholder="this is a nice job...">
+                    </section>
+                    <section>
+                        <label for="date-applied">Date Applied: </label>
+                        <input name="date-applied" placeholder="1/1/11">
+                    </section>
+                    <section>
+                        <label for="contact">Contact: </label>
+                        <input name="contact" placeholder="Boss">
+                    </section>
+                    <section>
+                        <label for="contact-email">Contact Email: </label>
+                        <input name="contact-email" placeholder="boss@company#1.com">
+                    </section>
+                    <section>
+                        <label for="contact-phone">Contact Phone: </label>
+                        <input name="contact-phone" placeholder="(876)453-3726">
+                    </section>
+                    <section>
+                        <label for="interviewdate">Interview Date: </label>
+                        <input name="interview-date" placeholder="1/7/11">
+                    </section>
+                    <section>
+                        <label for="follow-up">Follow-Up: </label>
+                        <input name="follow-up" placeholder="Yes-email">
+                    </section>
+                    <section>
+                        <label for="status">Status: </label>
+                        <select>
+                            <option>Interested</option>
+                            <option>Active</option>
+                            <option>Closed</option>
+                        </select>
+                    </section>
+                    <section>
+                        <label>Additional Notes: </label>
+                        <textarea placeholder="Nulla iaculis est vitae ullamcorper rutrum."></textarea>
+                    </section>
+                </form>
+                <a href="../home/home.html"><button>Save</button></a>
+            </div>
+        </section>
+    </main>
+    <footer>© Samantha Sheets, 2021</footer>
+</body>
+</html>
