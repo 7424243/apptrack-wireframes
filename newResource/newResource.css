@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+    background-color: darkgray;
+}
+
+.newResource-header {
+    margin-left: 20px;
+}
+
+.section1 {
+    background-color: #E8E8E8;
+    text-align: left;
+}
+
+.section1_content {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px;
+}

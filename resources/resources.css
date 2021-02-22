@@ -4,6 +4,7 @@
 
 footer {
     text-align: center;
+    background-color: darkgray;
 }
 
 .resources-header {
@@ -29,6 +30,5 @@ footer {
 .section2_content {
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 20px;
     padding: 15px;
 }

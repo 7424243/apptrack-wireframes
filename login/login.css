@@ -4,6 +4,7 @@
 
 footer {
     text-align: center;
+    background-color: darkgray;
 }
 
 .login-header {
@@ -16,7 +17,6 @@ footer {
 
 .login-section_content {
     margin-top: 20px;
-    margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
     padding: 15px;
